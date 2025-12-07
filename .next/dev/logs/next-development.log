@@ -1,0 +1,1048 @@
+[00:00:06.104] Server  LOG     
+[00:00:06.106] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:06.109] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:06.111] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:06.113] Server  LOG     
+[00:00:06.114] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:06.116] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:06.117] Server  LOG     
+[00:00:08.005] Server  LOG      ✓ Ready in 5.3s
+[00:00:18.067] Server  LOG      ○ Compiling / ...
+[00:00:58.704] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:59.844] Browser LOG     %c * Tone.js v15.1.22 *  background: #000; color: #fff
+[00:00:59.844] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <Home>
+                <main className="min-h-scre...">
+                  <Hero>
+                  <AudioPlayerSection>
+                    <section id="audio-player" className="py-32 px-6...">
+                      <div className="max-w-7xl ...">
+                        <h2>
+                        <p>
+                        <div className="grid grid-...">
+                          <Card className="p-10 borde..." style={{...}}>
+                            <div data-slot="card" className="text-card-..." style={{...}}>
+                              <h3>
+                              <audio>
+                              <div className="mb-8 h-32 ...">
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "31.5341275588767%"
+-                                   height: "9.47662%"
++                                   animationName: "none"
++                                   animationDuration: "0.9722040831416343s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.73422s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "89.03097229597174%"
+-                                   height: "99.5253%"
++                                   animationName: "none"
++                                   animationDuration: "0.9705137204382035s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.02s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.765287s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.02s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "77.0766166239962%"
+-                                   height: "34.3475%"
++                                   animationName: "none"
++                                   animationDuration: "0.5563150085155311s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.04s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.517536s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.04s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "14.798341517233393%"
+-                                   height: "13.7296%"
++                                   animationName: "none"
++                                   animationDuration: "0.8606380106546225s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.06s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.754728s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.06s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "60.44261731169704%"
+-                                   height: "72.6533%"
++                                   animationName: "none"
++                                   animationDuration: "0.758612638615065s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.08s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.907274s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.08s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "85.94239567722472%"
+-                                   height: "5.13075%"
++                                   animationName: "none"
++                                   animationDuration: "0.959766802776183s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.1s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.897704s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.1s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "77.98240456953485%"
+-                                   height: "65.7886%"
++                                   animationName: "none"
++                                   animationDuration: "0.5660660915807835s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.12s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.689386s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.12s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "13.641357625905249%"
+-                                   height: "99.231%"
++                                   animationName: "none"
++                                   animationDuration: "0.9398132579796132s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.14s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.706511s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.14s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "18.88377530092874%"
+-                                   height: "41.5331%"
++                                   animationName: "none"
++                                   animationDuration: "0.9688540817723547s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.16s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.924575s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.16s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "92.49549713153975%"
+-                                   height: "28.519%"
++                                   animationName: "none"
++                                   animationDuration: "0.7199052983896865s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.18s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.570681s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.18s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "81.6061516529737%"
+-                                   height: "47.2601%"
++                                   animationName: "none"
++                                   animationDuration: "0.5442101682968329s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.2s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.611364s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.2s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "39.372610524589376%"
+-                                   height: "3.34997%"
++                                   animationName: "none"
++                                   animationDuration: "0.6268039659260558s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.22s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.705838s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.22s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "98.92098021098194%"
+-                                   height: "64.352%"
++                                   animationName: "none"
++                                   animationDuration: "0.928828298965737s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.24s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.666774s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.24s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "20.15026670243264%"
+-                                   height: "90.695%"
++                                   animationName: "none"
++                                   animationDuration: "0.5876431489416235s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.26s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.941776s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.26s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "90.49149459352826%"
+-                                   height: "57.0415%"
++                                   animationName: "none"
++                                   animationDuration: "0.5410704040669871s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.28s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.670256s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.28s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "11.896011764466907%"
+-                                   height: "52.1004%"
++                                   animationName: "none"
++                                   animationDuration: "0.5990845412205895s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.3s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.901105s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.3s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "3.2085338592864776%"
+-                                   height: "71.8552%"
++                                   animationName: "none"
++                                   animationDuration: "0.6361486561311787s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.32s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.580874s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.32s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "62.85558717315439%"
+-                                   height: "0.485161%"
++                                   animationName: "none"
++                                   animationDuration: "0.7357965831702518s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.34s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.862646s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.34s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "83.95617335844936%"
+-                                   height: "91.0286%"
++                                   animationName: "none"
++                                   animationDuration: "0.5944763366242188s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.36s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.738835s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.36s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "95.69831800868802%"
+-                                   height: "23.9861%"
++                                   animationName: "none"
++                                   animationDuration: "0.9388774647434568s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.38s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.774099s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.38s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "95.46947892614376%"
+-                                   height: "20.1156%"
++                                   animationName: "none"
++                                   animationDuration: "0.6726027308243269s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.4s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.643035s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.4s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "6.584778286772064%"
+-                                   height: "21.6151%"
++                                   animationName: "none"
++                                   animationDuration: "0.9224451455406171s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.42s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.666783s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.42s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "37.67995224709588%"
+-                                   height: "78.1097%"
++                                   animationName: "none"
++                                   animationDuration: "0.5268108707783743s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.44s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.686812s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.44s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "55.16844007717167%"
+-                                   height: "18.3962%"
++                                   animationName: "none"
++                                   animationDuration: "0.8765649602308969s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.46s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.975666s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.46s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "55.16617505640803%"
+-                                   height: "52.8979%"
++                                   animationName: "none"
++                                   animationDuration: "0.587058328416678s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.48s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.598738s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.48s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "62.95047815889172%"
+-                                   height: "73.7641%"
++                                   animationName: "none"
++                                   animationDuration: "0.9781683882405927s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.5s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.827996s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.5s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "47.454111579957484%"
+-                                   height: "26.12%"
++                                   animationName: "none"
++                                   animationDuration: "0.8713915301072181s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.52s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.594898s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.52s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "47.717513110948985%"
+-                                   height: "60.7592%"
++                                   animationName: "none"
++                                   animationDuration: "0.5548832331017093s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.54s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.580104s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.54s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "89.77588877174193%"
+-                                   height: "92.2934%"
++                                   animationName: "none"
++                                   animationDuration: "0.9936801555905664s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.56s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.874051s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.56s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "19.171580674431134%"
+-                                   height: "53.4885%"
++                                   animationName: "none"
++                                   animationDuration: "0.5406217011299693s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.58s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.708505s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.58s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "92.37413291867395%"
+-                                   height: "12.9307%"
++                                   animationName: "none"
++                                   animationDuration: "0.6133349612055641s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.6s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.513881s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.6s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "4.097133286807586%"
+-                                   height: "59.4558%"
++                                   animationName: "none"
++                                   animationDuration: "0.7916993059086026s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.62s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.939193s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.62s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "25.051332580874085%"
+-                                   height: "5.67417%"
++                                   animationName: "none"
++                                   animationDuration: "0.6808724859143724s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.64s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.834716s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.64s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "41.744665448890586%"
+-                                   height: "63.5232%"
++                                   animationName: "none"
++                                   animationDuration: "0.7237637895557939s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.66s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.667004s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.66s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "94.28423896087573%"
+-                                   height: "15.3804%"
++                                   animationName: "none"
++                                   animationDuration: "0.8394836610206199s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.68s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.980719s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.68s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "29.401495864157788%"
+-                                   height: "66.8816%"
++                                   animationName: "none"
++                                   animationDuration: "0.7531789471200915s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.7000000000000001s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.58272s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.7s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "61.7253105217731%"
+-                                   height: "73.7982%"
++                                   animationName: "none"
++                                   animationDuration: "0.7566024832242144s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.72s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.676463s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.72s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "77.79923148028205%"
+-                                   height: "37.5912%"
++                                   animationName: "none"
++                                   animationDuration: "0.9206686490258749s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.74s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.603749s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.74s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "21.88912496039801%"
+-                                   height: "57.7893%"
++                                   animationName: "none"
++                                   animationDuration: "0.5548501639552601s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.76s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.582772s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.76s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "79.93964062653257%"
+-                                   height: "21.7639%"
++                                   animationName: "none"
++                                   animationDuration: "0.9415711029520051s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.78s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.725261s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.78s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "41.206405276874136%"
+-                                   height: "1.83603%"
++                                   animationName: "none"
++                                   animationDuration: "0.7087990204663805s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.8s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.648373s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.8s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "80.24860197091422%"
+-                                   height: "45.9781%"
++                                   animationName: "none"
++                                   animationDuration: "0.501956761489768s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.8200000000000001s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.875877s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.82s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "69.88067497037879%"
+-                                   height: "14.2836%"
++                                   animationName: "none"
++                                   animationDuration: "0.8038537707153561s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.84s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.658891s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.84s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "88.68571817328879%"
+-                                   height: "90.5867%"
++                                   animationName: "none"
++                                   animationDuration: "0.7149388956551501s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.86s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.857144s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.86s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "86.8584727077214%"
+-                                   height: "10.3576%"
++                                   animationName: "none"
++                                   animationDuration: "0.9826625869851595s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.88s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.620006s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.88s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "0.9319481605503777%"
+-                                   height: "5.07668%"
++                                   animationName: "none"
++                                   animationDuration: "0.8249693846213791s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.9s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.603507s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.9s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "98.1758067483937%"
+-                                   height: "44.6951%"
++                                   animationName: "none"
++                                   animationDuration: "0.7128922811250663s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.92s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.936469s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.92s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "84.61099309927302%"
+-                                   height: "95.3904%"
++                                   animationName: "none"
++                                   animationDuration: "0.8339337847841002s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.9400000000000001s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.66437s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.94s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "58.412190660604956%"
+-                                   height: "71.5051%"
++                                   animationName: "none"
++                                   animationDuration: "0.9999064536682007s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.96s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.841944s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.96s"
+                                  }}
+                                >
+                                <div
+                                  className="w-1 bg-primary rounded-full transition-all duration-300"
+                                  style={{
++                                   height: "21.663968138456248%"
+-                                   height: "99.8193%"
++                                   animationName: "none"
++                                   animationDuration: "0.9994241348013528s"
++                                   animationTimingFunction: "ease-in-out"
++                                   animationIterationCount: "infinite"
++                                   animationDelay: "0.98s"
+-                                   animation-name: "none"
+-                                   animation-duration: "0.739717s"
+-                                   animation-timing-function: "ease-in-out"
+-                                   animation-iteration-count: "infinite"
+-                                   animation-delay: "0.98s"
+                                  }}
+                                >
+                              ...
+                          <Card className="p-10 borde..." style={{...}}>
+                            <div data-slot="card" className="text-card-..." style={{...}}>
+                              <h3>
+                              <div className="mb-8 h-32 ...">
+                                <div className="absolute i...">
+                                  <div
+                                    className="h-2 bg-primary rounded-full mx-1 transition-all"
+                                    style={{
++                                     width: "30.156239928820284px"
+-                                     width: "25.7156px"
++                                     marginTop: "0px"
++                                     animationName: "none"
++                                     animationDuration: "1.3674977528080974s"
++                                     animationTimingFunction: "linear"
++                                     animationIterationCount: "infinite"
+-                                     margin-top: "0px"
+-                                     animation-name: "none"
+-                                     animation-duration: "1.14166s"
+-                                     animation-timing-function: "linear"
+-                                     animation-iteration-count: "infinite"
+                                    }}
+                                  >
+                                  <div
+                                    className="h-2 bg-primary rounded-full mx-1 transition-all"
+                                    style={{
++                                     width: "44.367148826299626px"
+-                                     width: "24.3168px"
++                                     marginTop: "12px"
++                                     animationName: "none"
++                                     animationDuration: "1.1217966575335212s"
++                                     animationTimingFunction: "linear"
++                                     animationIterationCount: "infinite"
+-                                     margin-top: "12px"
+-                                     animation-name: "none"
+-                                     animation-duration: "1.42777s"
+-                                     animation-timing-function: "linear"
+-                                     animation-iteration-count: "infinite"
+                                    }}
+                                  >
+                                  <div
+                                    className="h-2 bg-primary rounded-full mx-1 transition-all"
+                                    style={{
++                                     width: "58.18147540412949px"
+-                                     width: "65.7604px"
++                                     marginTop: "24px"
++                                     animationName: "none"
++                                     animationDuration: "1.9368813741279294s"
++                                     animationTimingFunction: "linear"
++                                     animationIterationCount: "infinite"
+-                                     margin-top: "24px"
+-                                     animation-name: "none"
+-                                     animation-duration: "1.16397s"
+-                                     animation-timing-function: "linear"
+-                                     animation-iteration-count: "infinite"
+                                    }}
+                                  >
+                                  <div
+                                    className="h-2 bg-primary rounded-full mx-1 transition-all"
+                                    style={{
++                                     width: "61.09770043436627px"
+-                                     width: "56.1599px"
++                                     marginTop: "36px"
++                                     animationName: "none"
++                                     animationDuration: "1.9669420396504245s"
++                                     animationTimingFunction: "linear"
++                                     animationIterationCount: "infinite"
+-                                     margin-top: "36px"
+-                                     animation-name: "none"
+-                                     animation-duration: "1.59761s"
+-                                     animation-timing-function: "linear"
+-                                     animation-iteration-count: "infinite"
+                                    }}
+                                  >
+                                  <div
+                                    className="h-2 bg-primary rounded-full mx-1 transition-all"
+                                    style={{
++                                     width: "71.76564147302781px"
+-                                     width: "42.4906px"
++                                     marginTop: "48px"
++                                     animationName: "none"
++                                     animationDuration: "1.3086329809495463s"
++                                     animationTimingFunction: "linear"
++                                     animationIterationCount: "infinite"
+-                                     margin-top: "48px"
+-                                     animation-name: "none"
+-                                     animation-duration: "1.38959s"
+-                                     animation-timing-function: "linear"
+-                                     animation-iteration-count: "infinite"
+                                    }}
+                                  >
+                                  <div
+                                    className="h-2 bg-primary rounded-full mx-1 transition-all"
+                                    style={{
++                                     width: "72.14793708601812px"
+-                                     width: "48.7509px"
++                                     marginTop: "60px"
++                                     animationName: "none"
++                                     animationDuration: "1.0463654510706615s"
++                                     animationTimingFunction: "linear"
++                                     animationIterationCount: "infinite"
+-                                     margin-top: "60px"
+-                                     animation-name: "none"
+-                                     animation-duration: "1.04555s"
+-                                     animation-timing-function: "linear"
+-                                     animation-iteration-count: "infinite"
+                                    }}
+                                  >
+                                  <div
+                                    className="h-2 bg-primary rounded-full mx-1 transition-all"
+                                    style={{
++                                     width: "49.98038993269735px"
+-                                     width: "31.7149px"
++                                     marginTop: "72px"
++                                     animationName: "none"
++                                     animationDuration: "1.9445780685316234s"
++                                     animationTimingFunction: "linear"
++                                     animationIterationCount: "infinite"
+-                                     margin-top: "72px"
+-                                     animation-name: "none"
+-                                     animation-duration: "1.27519s"
+-                                     animation-timing-function: "linear"
+-                                     animation-iteration-count: "infinite"
+                                    }}
+                                  >
+                                  <div
+                                    className="h-2 bg-primary rounded-full mx-1 transition-all"
+                                    style={{
++                                     width: "73.57420165130931px"
+-                                     width: "41.6417px"
++                                     marginTop: "84px"
++                                     animationName: "none"
++                                     animationDuration: "1.8664830121940188s"
++                                     animationTimingFunction: "linear"
++                                     animationIterationCount: "infinite"
+-                                     margin-top: "84px"
+-                                     animation-name: "none"
+-                                     animation-duration: "1.92117s"
+-                                     animation-timing-function: "linear"
+-                                     animation-iteration-count: "infinite"
+                                    }}
+                                  >
+                              ...
+                        ...
+                  ...
+            ...
+          ...
+
+[00:01:05.729] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:05.729] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:05.729] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765092131350}
