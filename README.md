@@ -3,6 +3,3 @@
 2 - ``npm run dev``  
 3 - Acessar via localhost:3000   
 
-ou   
-
-v0-multimedia-projeto.vercel.app  
